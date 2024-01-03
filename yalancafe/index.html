@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yalan Cafe</title>
+        <!--CSS LINK-->
+        <link rel="stylesheet" href="index.css">
+        <!--ANIMASION LINK-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+        <!--FONT LINK-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body class="animate__animated animate__fadeIn">
+         
+
+        <header>
+
+        <a href="index.html">
+        <div class="logo">
+            Yalan Cafe
+            <img src="logo.png" id="logophoto" >
+        </div>
+        </a>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+        </div>
+
+    
+        <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="index.html" class="active">Ana Sayfa</a>
+            </li>
+
+            <li>
+                <a a href="hakkimizda.html">Hakkımızda</a>
+            </li>
+
+            <li>
+                <a target="_blank" href="menu.html">Menü</a>
+            </li>
+
+            <li>
+                <a href="bulten.html">Bülten</a> 
+            </li>
+
+            <li>
+                <a href="iletisim.html">İletişim</a>
+            </li>
+
+            <li>
+                <a href="etkinliktakvimi.html">Etkinlik Takvimi</a>
+            </li>
+
+            <p id="copyright">© 2012 Yalan Cafe</p>
+            
+        </ul>
+        </nav>
+        </header>
+
+        <section>
+            <div class="section">
+                <h2 id="promo1">BU DÜNYA</h2>
+                <h2 id="promo2">YALAN DÜNYA</h2>
+                <h3 id="promo3">CAFE  |  YEMEK  |  KONSER</h3>
+            </div>
+        </section>
+
+        <!--JAVASCRIPT-->
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navBar = document.querySelector(".nav-bar");
+
+            hamburger.addEventListener("click",() => {
+                hamburger.classList.toggle("active");
+                navBar.classList.toggle("active");
+            })
+
+            document.querySelector(".hamburger").forEach(n => n.addEventListener("click", () =>{
+                hamburger.classList.remove("active");
+                navBar.classList.remove("active");    
+            }))
+
+
+            
+            
+            
+        </script>
+
+
+
+
+    </body>
+</html>

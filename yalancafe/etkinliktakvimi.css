@@ -1,0 +1,720 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: rgb(30, 30, 30);
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #e9e1c543;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+li
+{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo
+{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    
+    color: #E9E1C5;
+    
+}
+
+#logophoto
+{
+    position: absolute;
+    width: 84px;
+    height: 141px;
+    left: 190px;
+    top: 25px;
+    
+}
+
+header
+{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding: 50,100;
+}
+
+.hamburger
+{
+    display: none;
+    
+}
+
+.nav-bar ul
+{
+    display: block;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    align-self: start;
+    z-index: 2;
+    
+}
+
+.nav-bar ul li{
+    padding: 30px;
+    
+}
+.nav-bar ul li a{
+    
+    display: block;
+    padding: 10px,15px;
+    margin: 0 2px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    transition: 0.2s;
+
+
+    color: #E9E1C5;
+}
+
+.nav-bar ul li a:hover{
+    color: #e9e1c586;
+}
+
+
+#copyright
+{
+    position: absolute;
+    right: 50px;
+    top: 650px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #E9E1C5;
+
+}
+
+.fronttext{
+    position: absolute;
+    left: 53px;
+    top: 302px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 0.1em;
+   
+    color: #E9E1C5;
+}
+
+.backtext{
+    position: absolute;
+    left: 39px;
+    top: 287px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 180px;
+    letter-spacing: 0.1em;
+    
+    color: #E9E1C5;   
+    opacity: 0.2;
+}
+
+#hatiradefteri{
+    position: absolute;
+    width: 417px;
+    height: 607px;
+    left: 89px;
+    top: 538px;   
+    background: rgba(233, 225, 197, 0.2);
+    border-radius: 5px;
+
+}
+
+#hatiradefterijpg{
+    position: absolute;
+    width: 328px;
+    height: 465px;
+    left: 44px;
+    top: 30px;
+
+}
+
+#hatiradefteritext1{
+    position: absolute;
+    left: 44px;
+    top: 503px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+
+    color: #E9E1C5;
+
+}
+
+#hatiradefteritext2{
+    position: absolute;
+    left: 44px;
+    top: 540px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+   
+    color: #E9E1C5;
+
+}
+
+#hatiradefteritext3{
+    position: absolute;
+    left: 44px;
+    top: 565px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  
+    color: #E9E1C5;
+
+}
+
+#ikircik{
+    position: absolute;
+    width: 417px;
+    height: 607px;
+    left: 604px;
+    top: 538px;  
+    background: rgba(233, 225, 197, 0.2);
+    border-radius: 5px;
+
+}
+
+#ikircikjpg{
+    position: absolute;
+    width: 328px;
+    height: 465px;
+    left: 44px;
+    top: 30px;
+
+}
+
+#ikirciktext1{
+    position: absolute;
+    left: 44px;
+    top: 503px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+   
+    color: #E9E1C5;
+
+}
+
+#ikirciktext2{
+    position: absolute;
+    left: 44px;
+    top: 540px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+   
+    color: #E9E1C5;
+
+}
+
+#ikirciktext3{
+    position: absolute;
+    left: 44px;
+    top: 565px;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #E9E1C5;
+
+}
+
+@media only screen and (max-width:1320px) {
+    header{
+        padding: 0 50px;
+        width: auto;
+        height: auto;
+    }.fronttext{
+        font-size: 90px;
+        line-height: 120px;
+        left: 90px;
+        top: 280px
+       
+    }
+    .backtext{
+        font-size: 100px;
+        line-height: 195px;
+        left: 75px;
+        top: 241px;
+    }
+
+}
+
+@media only screen and (max-width:1110px) {
+    header{
+        padding: 0 30px;
+    }
+
+    .logo{
+        left: 40px;
+        top: 27px;
+        font-size: 90px;
+        line-height: 90px;
+    }
+    #logophoto{
+        width: 78px;
+        height: 131px;
+        left: 175px;
+        top: 12px;
+    }
+    .fronttext{
+        font-size: 80px;
+        line-height: 120px;
+        left: 90px;
+        top: 280px
+       
+    }
+    .backtext{
+        font-size: 90px;
+        line-height: 195px;
+        left: 75px;
+        top: 241px;
+    }
+    
+    #hatiradefteri{
+        width: 317px;
+        height: 462px;
+        left: 103px;
+        top: 550px;
+    
+    }
+    
+    #hatiradefterijpg{
+        width: 249px;
+        height: 354px;
+        left: 34px;
+        top: 23px;
+    
+    }
+    
+    #hatiradefteritext1{
+        left: 34px;
+        top: 383px;
+        font-size: 21px;
+        line-height: 32px;
+    
+    }
+    
+    #hatiradefteritext2{
+        left: 34px;
+        top: 414px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #hatiradefteritext3{
+        left: 34px;
+        top: 430px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #ikircik{
+        width: 317px;
+        height: 462px;
+        left: 495px;
+        top: 550px;
+    
+    }
+    
+    #ikircikjpg{
+        width: 250px;
+        height: 354px;
+        left: 34px;
+        top: 23px;
+    
+    }
+    
+    #ikirciktext1{
+        left: 34px;
+        top: 383px;
+        font-size: 21px;
+        line-height: 32px;
+    
+    }
+    
+    #ikirciktext2{
+        left: 34px;
+        top: 414px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #ikirciktext3{
+        left: 34px;
+        top: 430px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .hamburger{
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        top: 40px;
+        right: 20px;
+        z-index: 2;
+       
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #E9E1C5;
+        margin: 6px; 
+        z-index: 2;
+        
+          
+    }
+    .nav-bar{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 260px;
+        background:#1e1e1e9a ;
+        transition: 0.5s;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 100%;
+        z-index: 1;
+    }
+   
+    .nav-bar ul{
+        display: block;
+        width:fit-content ;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        top: 20px;
+
+    }
+    .nav-bar ul li a{
+        font-size: 20px;
+        
+    }
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+    .nav-bar ul il a{
+        margin-bottom: 12px ;
+    }
+    .logo{
+        left: 40px;
+        top: 35px;
+        font-size: 80px;
+        line-height: 80px;
+    }
+    #logophoto{
+        width: 68px;
+        height: 115px;
+        left: 155px;
+        top: 12px;
+    }
+    .fronttext{
+        font-size: 65px;
+        line-height: 98px;
+        left: 60px;
+        top: 268px;
+       
+    }
+    .backtext{
+        font-size: 75px;
+        line-height: 112px;
+        left: 50px;
+        top: 260px;
+    }
+
+    #hatiradefteri{
+        width: 303px;
+        height: 443px;
+        left: 62px;
+        top: 482px;
+    
+    }
+    
+    #hatiradefterijpg{
+        width: 238px;
+        height: 339px;
+        left: 33px;
+        top: 22px;
+    
+    }
+    
+    #hatiradefteritext1{
+        left: 26px;
+        top: 369px;
+        font-size: 21px;
+        line-height: 32px;
+    
+    }
+    
+    #hatiradefteritext2{
+        left: 26px;
+        top: 396px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #hatiradefteritext3{
+        left: 26px;
+        top: 413px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #ikircik{
+        width: 311px;
+        height: 453px;
+        left: 445px;
+        top: 482px;
+    
+    }
+    
+    #ikircikjpg{
+        width: 244px;
+        height: 347px; 
+        left: 33px;
+        top: 22px;
+    
+    }
+    
+    #ikirciktext1{
+        left: 33px;
+        top: 376px;
+        font-size: 21px;
+        line-height: 32px;
+    
+    }
+    
+    #ikirciktext2{
+        left: 33px;
+        top: 405px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    #ikirciktext3{
+        left: 33px;
+        top: 423px;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+
+
+}
+@media only screen and (max-width:600px) {
+    .logo{
+        left: 46px;
+        top: 44px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    #logophoto{
+        width: 61px;
+        height: 96px;
+        left: 135px;
+        top: 12px;
+    }
+    .fronttext{
+        font-size: 63px;
+        line-height: 75px;
+        left: 23px;
+        top: 300px;
+       
+    }
+    .backtext{
+        font-size: 65px;
+        line-height: 82px;
+        left: 14px;
+        top: 300px;
+    }
+
+    #hatiradefteri{
+        width: 221px;
+        height: 323px;
+        left: 49px;
+        top: 406px;
+    
+    }
+    
+    #hatiradefterijpg{
+        left: 27px;
+        top: 17px;
+        width: 172px;
+        height: 247px;
+    
+    }
+    
+    #hatiradefteritext1{
+        left: 19px;
+        top: 269px;
+        font-size: 16px;
+        line-height: 24px;
+    
+    }
+    
+    #hatiradefteritext2{
+        left: 19px;
+        top: 288px;
+        font-size: 12px;
+        line-height: 18px;
+    
+    }
+    
+    #hatiradefteritext3{
+        left: 19px;
+        top: 302px;
+        font-size: 12px;
+        line-height: 18px;
+    
+    }
+    
+    #ikircik{
+        width: 225px;
+        height: 330px;
+        left: 47px;
+        top: 819px;
+        
+    
+    }
+    
+    #ikircikjpg{
+        left: 27px;
+        top: 17px;
+        width: 172px;
+        height: 247px;
+    
+    }
+    
+    #ikirciktext1{
+        left: 19px;
+        top: 269px;
+        font-size: 16px;
+        line-height: 24px;
+    
+    }
+    
+    #ikirciktext2{
+        left: 19px;
+        top: 288px;
+        font-size: 12px;
+        line-height: 18px;
+    
+    }
+    
+    #ikirciktext3{
+        left: 19px;
+        top: 302px;
+        font-size: 12px;
+        line-height: 18px;
+    
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .logo{
+        font-size: 40px;
+        line-height: 40px;
+        left: 26px;
+        top: 28px;
+    }
+    #logophoto{
+        width: 38px;
+        height: 61px;
+        left: 75px;
+        top: 5px;
+    }
+    .nav-bar ul{
+        top: 5px;
+    }
+    .fronttext{
+        font-size: 40px;
+        line-height: 60px;
+        left: 13px;
+        top: 117px;
+       
+    }
+    .backtext{
+        font-size: 45px;
+        line-height: 68px;
+        left: 7px;
+        top: 111px;
+    }
+
+}
+
